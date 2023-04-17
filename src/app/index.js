@@ -1,3 +1,2 @@
-// import '../index.html';
-// Importar archivo css que genera sass
-// import '';
+// Importar archivo scss que genera sass
+import '../assets/css/style.css';
