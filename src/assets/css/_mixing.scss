@@ -1,0 +1,16 @@
+@mixin button($primaryColor: hsl(0, 0%, 98%), $secundaryColor: hsl(0, 0%, 8%), $TertiaryColor: hsl(0, 0%, 41%)){
+    background-color: $primaryColor;
+    border: solid 2px $TertiaryColor;
+    color: $TertiaryColor;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 1s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $primaryColor;
+        border: solid 2px $secundaryColor;
+        color: $secundaryColor;
+    }
+}
