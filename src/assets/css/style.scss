@@ -41,7 +41,12 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+<<<<<<< HEAD
     overflow: hidden; /*--- recorta contenido que se salga del contenedor.*/
+=======
+    overflow: hidden; /--- recorta contenido que se salga del contenedor./
+    background: magenta;
+>>>>>>> 00009be8c6743ec56f3b41d21d559b14c9e30fa1
   }
 
   &__container-left {
@@ -103,3 +108,4 @@
 
   }
 }
+
