@@ -17,7 +17,6 @@
   }
   &__list{
       display: flex;
-  
       justify-content: center;
       gap: 2rem;
       list-style: none;
@@ -45,7 +44,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    overflow: hidden; /*--- recorta contenido que se salga del contenedor.*/
+    overflow: hidden; /--- recorta contenido que se salga del contenedor./
     background: magenta;
   }
 
@@ -86,3 +85,4 @@
     font-size: $paragraphFont;
   }
 }
+
