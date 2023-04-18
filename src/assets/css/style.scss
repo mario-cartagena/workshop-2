@@ -1,10 +1,40 @@
-main {
+@import "variables.scss";
+@import "universals.scss";
+
+.header{
+  &__nav{
+      display: flex;
+      justify-content: space-between;
+  }
+  &__left{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+  }
+  &__logo{
+      display: flex;
+      align-items: center;
+  }
+  &__list{
+      display: flex;
+  
+      justify-content: center;
+      gap: 2rem;
+      list-style: none;
+  }
+  &__right{
+      display: flex;
+  align-items: center;
+  gap: 12px;
+  }
+}
+.main {
   background-color: white;
   margin-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
 
-  &seccion {
+  &__seccion {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,5 +85,4 @@ main {
     font-family: $colorTertiary;
     font-size: $paragraphFont;
   }
-
 }

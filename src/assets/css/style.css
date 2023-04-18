@@ -1,6 +1,30 @@
 main {
   background-color: white;
 }
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
 .seccion__main {
   display: flex;
@@ -8,7 +32,6 @@ main {
   align-items: center;
   height: 90vh;
 }
-
 .container__main {
   display: flex;
   justify-content: space-between;
@@ -17,7 +40,6 @@ main {
   overflow: hidden; /*--- recorta contenido que se salga del contenedor.*/
   background: magenta;
 }
-
 .container__left {
   width: 40%;
   gap: 2%;
