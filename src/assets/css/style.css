@@ -1,5 +1,26 @@
-body {
-  background-color: aqua;
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
