@@ -1,0 +1,5 @@
+@import "variables.scss";
+
+@mixin theme($theme: $colorTertiary){
+    border: $theme;
+}
