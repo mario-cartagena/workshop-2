@@ -1,88 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  border: none;
-  background-color: transparent;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 3 | @import "mixing.scss";
+ *   |         ^^^^^^^^^^^^^
+ *   '
+ *   style.scss 3:9  root stylesheet */
 
-.header__nav {
-  display: flex;
-  justify-content: space-between;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @import \"mixing.scss\";\d\a   \2502          ^^^^^^^^^^^^^\a   \2575 \a   style.scss 3:9  root stylesheet";
 }
-.header__left {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.header__logo {
-  display: flex;
-  align-items: center;
-}
-.header__list {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  list-style: none;
-}
-.header__right {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.main {
-  background-color: white;
-  margin-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.main__seccion {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  overflow: hidden;
-  background: magenta;
-}
-.main__container-left {
-  width: 40%;
-  gap: 2%;
-  display: flex;
-  background-color: #f2f2f2;
-  text-align: center;
-  background: green;
-}
-.main__container-right {
-  background: olive;
-  width: 50%;
-  height: 100%;
-}
-.main__img {
-  width: 100%;
-  height: 100%;
-}
-.main__title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: left;
-}
-.main__button {
-  background: black;
-}
-.main__paragraf {
-  color: hsl(0, 0%, 8%);
-  font-family: hsl(0, 0%, 8%);
-  font-size: 18px;
-}
-
-/*# sourceMappingURL=style.css.map */
