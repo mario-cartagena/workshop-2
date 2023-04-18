@@ -1,14 +1,30 @@
-main {
-  background-color: white;
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: "Epilogue";
+}
+
+.header {
+  color: hsl(0, 0%, 41%);
 }
 .header__nav {
   display: flex;
   justify-content: space-between;
+  padding: 1.5rem;
 }
 .header__left {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 4rem;
+}
+.header__icono {
+  display: none;
 }
 .header__logo {
   display: flex;
@@ -25,22 +41,45 @@ main {
   align-items: center;
   gap: 12px;
 }
+.header__right button {
+  font-size: 15px;
+  padding: 10px 15px;
+  border: 2px solid hsl(0, 0%, 41%);
+  border-radius: 10px;
+  color: hsl(0, 0%, 41%);
+}
+.header__right button:first-child {
+  border: none;
+}
+.header__select {
+  font-size: 15px;
+  border: none;
+  color: hsl(0, 0%, 41%);
+}
+.header__select option {
+  font-family: "Epilogue";
+}
 
-.seccion__main {
+.main {
+  background-color: white;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main__seccion {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 90vh;
 }
-.container__main {
+.main__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  overflow: hidden; /*--- recorta contenido que se salga del contenedor.*/
+  overflow: hidden;
   background: magenta;
 }
-.container__left {
+.main__container-left {
   width: 40%;
   gap: 2%;
   display: flex;
@@ -48,33 +87,37 @@ main {
   text-align: center;
   background: green;
 }
-
-.container__right {
+.main__container-right {
   background: olive;
   width: 50%;
   height: 100%;
 }
-
-.img__main {
+.main__img {
   width: 100%;
   height: 100%;
 }
-
-.title {
+.main__title {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: left;
 }
-
-.button__main {
+.main__button {
   background: black;
 }
+.main__paragraf {
+  color: hsl(0, 0%, 8%);
+  font-family: hsl(0, 0%, 8%);
+  font-size: 15px;
+}
 
-/* p{
-    color: $colorTertiary;
-    font-family: $colorTertiary;
-    font-size: $paragraphFont;
-} */
+@media screen and (max-width: 375px) {
+  .header__list {
+    flex-direction: column;
+  }
+  .header__right {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
