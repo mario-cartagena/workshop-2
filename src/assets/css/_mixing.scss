@@ -1,5 +1,7 @@
-@import "variables.scss";
-
-@mixin theme($theme: $colorTertiary){
-    border: $theme;
+@mixin buttons($sizePadding, $colorTertiary, $paragraphFont, $colorFont){
+    padding: $sizePadding;
+    background-color: $colorTertiary;
+    font-size: $paragraphFont;
+    color: $colorTertiary;
+    border: none;
 }

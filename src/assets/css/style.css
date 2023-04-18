@@ -1,5 +1,22 @@
-body {
-  background-color: aqua;
-}
+/* Error: Missing argument $sizePadding.
+ *   ,--> style.scss
+ * 11|     @include buttons;
+ *   |     ^^^^^^^^^^^^^^^^ invocation
+ *   '
+ *   ,--> _mixing.scss
+ * 1 | @mixin buttons($sizePadding, $colorTertiary, $paragraphFont, $colorFont){
+ *   |        ================================================================= declaration
+ *   '
+ *   style.scss 11:5  buttons()
+ *   style.scss 11:5  root stylesheet */
 
-/*# sourceMappingURL=style.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Missing argument $sizePadding.\a   \250c \2500 \2500 > style.scss\a 11\2502      @include buttons;\d\a   \2502      ^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \250c \2500 \2500 > _mixing.scss\a 1 \2502  @mixin buttons($sizePadding, $colorTertiary, $paragraphFont, $colorFont){\d\a   \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   style.scss 11:5  buttons()\a   style.scss 11:5  root stylesheet";
+}

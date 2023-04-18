@@ -2,12 +2,11 @@
 @import "universals.scss";
 @import "mixing.scss";
 
-body{
-    background-color: rgb(184, 233, 9);
+body {
+    background-color: rgb(198, 82, 14);
 }
 
-.button__desing{
-    @include theme{
-        background-color: olive;
-    }
+.button__desing {
+    padding: 2%;
+    @include buttons;
 }
