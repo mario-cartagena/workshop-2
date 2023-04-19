@@ -5,6 +5,7 @@
 /*!********************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/style.css (1) ***!
   \********************************************************************************/
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap);
 /*!********************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/assets/css/style.css (2) ***!
@@ -26,14 +27,38 @@
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
+=======
+* {
+<<<<<<< HEAD
+  padding: none;
+  margin: none;
+=======
+  padding: 0;
+  margin: 0;
+>>>>>>> 69611a2c6b6d7fd8a0d65b84822e3a2c7a221bb3
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+>>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
 }
 .header__left {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   gap: 4rem;
 }
 .header__icono {
   display: none;
+=======
+  gap: 15px;
+>>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
 }
 .header__logo {
   display: flex;
@@ -50,6 +75,7 @@
   align-items: center;
   gap: 12px;
 }
+<<<<<<< HEAD
 .header__right button {
   font-size: 15px;
   padding: 10px 15px;
@@ -68,6 +94,8 @@
 .header__select option {
   font-family: "Epilogue";
 }
+=======
+>>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
 
 .main {
   background-color: white;
@@ -85,11 +113,25 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  overflow: hidden; /*--- recorta contenido que se salga del contenedor.*/
+  background: pink;
+}
+.main__container-left {
+  width: 55%;
+=======
+>>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
   overflow: hidden;
   background: magenta;
 }
 .main__container-left {
   width: 40%;
+<<<<<<< HEAD
+=======
+>>>>>>> 69611a2c6b6d7fd8a0d65b84822e3a2c7a221bb3
+>>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
   gap: 2%;
   display: flex;
   background-color: #f2f2f2;
@@ -98,7 +140,15 @@
 }
 .main__container-right {
   background: olive;
+<<<<<<< HEAD
   width: 50%;
+=======
+<<<<<<< HEAD
+  width: 45%;
+=======
+  width: 50%;
+>>>>>>> 69611a2c6b6d7fd8a0d65b84822e3a2c7a221bb3
+>>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
   height: 100%;
 }
 .main__img {
@@ -106,17 +156,43 @@
   height: 100%;
 }
 .main__title {
+<<<<<<< HEAD
   font-size: 24px;
+=======
+<<<<<<< HEAD
+  font-size: 60px;
+=======
+  font-size: 24px;
+>>>>>>> 69611a2c6b6d7fd8a0d65b84822e3a2c7a221bb3
+>>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
   font-weight: bold;
   margin-bottom: 20px;
   text-align: left;
 }
 .main__button {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  background: hsl(0, 0%, 8%);
+  padding: 20px;
+  font-family: "Epilogue";
+  font-size: 18px;
+  border-radius: 5px;
+  color: hsl(0, 0%, 98%);
+}
+.main__paragraf {
+  color: hsl(0, 0%, 8%);
+  font-family: "Epilogue";
+  font-size: 18px;
+  text-align: justify;
+=======
+>>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
   background: black;
 }
 .main__paragraf {
   color: hsl(0, 0%, 8%);
   font-family: hsl(0, 0%, 8%);
+<<<<<<< HEAD
   font-size: 15px;
 }
 
@@ -127,5 +203,9 @@
   .header__right {
     display: none;
   }
+=======
+  font-size: 18px;
+>>>>>>> 69611a2c6b6d7fd8a0d65b84822e3a2c7a221bb3
+>>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
 }
 
