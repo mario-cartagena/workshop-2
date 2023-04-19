@@ -27,11 +27,9 @@
   justify-content: center;
   gap: 2rem;
   list-style: none;
-}
-.header__right {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
 }
 
 .main {
@@ -47,7 +45,6 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  overflow: hidden; /*--- recorta contenido que se salga del contenedor.*/
 }
 .main__container-left {
   width: 50%;

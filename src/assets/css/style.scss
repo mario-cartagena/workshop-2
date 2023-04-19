@@ -1,33 +1,39 @@
 @import "variables.scss";
 @import "universals.scss";
+@import "mixing.scss";
 
-.header{
-  &__nav{
-      display: flex;
-      justify-content: space-between;
+.header {
+  &__nav {
+    display: flex;
+    justify-content: space-between;
   }
-  &__left{
-      display: flex;
-      align-items: center;
-      gap: 15px;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
   }
-  &__logo{
-      display: flex;
-      align-items: center;
+
+  &__logo {
+    display: flex;
+    align-items: center;
   }
-  &__list{
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      list-style: none;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
   }
-  &__right{
+
+  &__right {
     display: flex;
     align-items: center;
     gap: 12px;
   }
 }
-.main{
+
+.main {
   margin: 70px;
 
   &__seccion {
@@ -36,12 +42,13 @@
     align-items: center;
   }
 
-  &__container{
+  &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    overflow: hidden; /*--- recorta contenido que se salga del contenedor.*/
+    overflow: hidden;
+    /*--- recorta contenido que se salga del contenedor.*/
 
   }
 
@@ -52,7 +59,7 @@
     padding-left: 70px;
   }
 
-  &__details{
+  &__details {
     width: 80%;
   }
 
@@ -74,9 +81,9 @@
 
   &__paragraph {
     color: $colorTertiary;
-    font-family:$typografyFont;
+    font-family: $typografyFont;
     font-size: $paragraphFont;
-    text-align: justify;  
+    text-align: justify;
     margin-bottom: 80px;
     margin-right: 100px;
   }
@@ -84,7 +91,7 @@
   &__button {
     background: $colorTertiary;
     padding: 20px;
-    font-family:$typografyFont;
+    font-family: $typografyFont;
     font-size: $paragraphFont;
     border-radius: 10px;
     color: $colorPrimary;
@@ -92,16 +99,16 @@
     justify-content: left;
     margin-bottom: 100px;
   }
-  &__partners{
+
+  &__partners {
     display: flex;
     align-content: center;
     justify-content: space-between;
     align-items: center;
     width: 90%;
   }
-  &__figure-partners img{
-    width: 65px;
 
+  &__figure-partners img {
+    width: 65px;
   }
 }
-
