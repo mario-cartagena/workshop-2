@@ -111,25 +111,25 @@
 
 @media screen and (max-width: 900px) {
   .header{
-    // &__left ul{
-    //   display: none;
+    &__left ul{
+      display: none;
       
-    // }
+    }
   }
 }
 @media screen and (max-width: 375px) {
   .header{
-    // &__right button{
-    //   display: none;
-    // }
-    // &__icono{
-    //   display: block;
-    // }
-    &__list{
-      flex-direction: column;
-    }
-    &__right{
+    &__right button{
       display: none;
     }
+    &__icono{
+      display: block;
+    }
+    // &__list{
+    //   flex-direction: column;
+    // }
+    // &__right{
+    //   display: none;
+    // }
   }
 }

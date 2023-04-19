@@ -111,12 +111,17 @@
   font-size: 15px;
 }
 
-@media screen and (max-width: 375px) {
-  .header__list {
-    flex-direction: column;
-  }
-  .header__right {
+@media screen and (max-width: 900px) {
+  .header__left ul {
     display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header__right button {
+    display: none;
+  }
+  .header__icono {
+    display: block;
   }
 }
 

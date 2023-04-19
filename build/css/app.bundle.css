@@ -51,6 +51,7 @@
   gap: 12px;
 }
 .header__right button {
+  font-size: 15px;
   padding: 10px 15px;
   border: 2px solid hsl(0, 0%, 41%);
   border-radius: 10px;
@@ -58,6 +59,14 @@
 }
 .header__right button:first-child {
   border: none;
+}
+.header__select {
+  font-size: 15px;
+  border: none;
+  color: hsl(0, 0%, 41%);
+}
+.header__select option {
+  font-family: "Epilogue";
 }
 
 .main {
@@ -108,20 +117,15 @@
 .main__paragraf {
   color: hsl(0, 0%, 8%);
   font-family: hsl(0, 0%, 8%);
-  font-size: 18px;
+  font-size: 15px;
 }
 
-@media screen and (max-width: 900px) {
-  .header__left ul {
-    display: none;
-  }
-}
 @media screen and (max-width: 375px) {
-  .header__right button {
-    display: none;
+  .header__list {
+    flex-direction: column;
   }
-  .header__icono {
-    display: block;
+  .header__right {
+    display: none;
   }
 }
 
