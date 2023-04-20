@@ -36,7 +36,6 @@
   gap: 2rem;
   list-style: none;
 }
-
 .header__list ul li a {
   background-color: palevioletred;
   display: flex;
@@ -63,7 +62,6 @@
 .header__list li:hover > ul {
   display: block;
 }
-
 .header__right {
   display: flex;
   align-items: center;
@@ -113,12 +111,15 @@
   width: 80%;
 }
 .main__container-right {
-  width: 45%;
-  height: 100%;
+  width: 700px;
+  background-image: url(../img/image-hero-desktop.png); /*Imagen de fondo*/
+  background-repeat: no-repeat; /*Para que no se repita*/
+  background-size: cover; /*Se ajusta al contenedor*/
 }
 .main__img {
   width: 100%;
   height: 100%;
+  opacity: 0;
 }
 .main__title {
   font-size: 85px;
@@ -154,7 +155,6 @@
 .main__figure-partners img {
   width: 65px;
 }
-
 @media screen and (max-width: 900px) {
   .header__left ul {
     display: none;
@@ -166,6 +166,58 @@
   }
   .header__icono {
     display: block;
+  }
+  .main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .main__seccion {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .main__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    overflow: hidden;
+  }
+  .main__container-right {
+    width: 360px;
+    height: 270px;
+    margin: 0 auto;
+    background-image: url(../img/image-hero-mobile.png);
+  }
+  .main__img {
+    width: 200px;
+    height: 100%;
+    opacity: 0;
+  }
+  .main__container-left {
+    width: 50%;
+    margin: 10% 0;
+    gap: 0;
+    display: flex;
+    transform: translateX(-180px);
+  }
+  .main__title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    width: 410px;
+  }
+  .main__paragraph {
+    color: hsl(0, 0%, 8%);
+    font-family: "Epilogue";
+    font-size: 15px;
+    text-align: center;
+    width: 330px;
+    transform: translateX(38px);
+    margin: 20% 0;
+    line-height: 25px;
   }
 }
 
