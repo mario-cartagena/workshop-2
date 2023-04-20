@@ -36,6 +36,34 @@
   gap: 2rem;
   list-style: none;
 }
+
+.header__list ul li a {
+  background-color: palevioletred;
+  display: flex;
+}
+.header__list a {
+  color: hsl(0, 0%, 8%);
+}
+.header__list li a {
+  display: block;
+  padding: 5px 15px;
+  transition: 0.5s;
+}
+.header__list li a:hover {
+  color: hsl(0, 0%, 41%);
+}
+.header__list > li {
+  float: left;
+}
+.header__list li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+.header__list li:hover > ul {
+  display: block;
+}
+
 .header__right {
   display: flex;
   align-items: center;
