@@ -86,9 +86,9 @@
 }
 .main__container-right {
   width: 700px;
-  background-image: url(../img/image-hero-desktop.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(../img/image-hero-desktop.png); /*Imagen de fondo*/
+  background-repeat: no-repeat; /*Para que no se repita*/
+  background-size: cover; /*Se ajusta al contenedor*/
 }
 .main__img {
   width: 100%;
