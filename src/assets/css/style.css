@@ -36,7 +36,7 @@
   gap: 2rem;
   list-style: none;
 }
-.header__list ul li a {
+.header__listul li a {
   background-color: palevioletred;
   display: flex;
 }
@@ -68,11 +68,19 @@
   gap: 12px;
 }
 .header__right button {
-  font-size: 15px;
-  padding: 10px 15px;
-  border: 2px solid hsl(0, 0%, 41%);
-  border-radius: 10px;
+  background-color: hsl(0, 0%, 98%);
+  border: solid 2px hsl(0, 0%, 41%);
   color: hsl(0, 0%, 41%);
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 1s;
+  cursor: pointer;
+}
+.header__right button:hover {
+  background-color: hsl(0, 0%, 98%);
+  border: solid 2px hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
 }
 .header__right button:first-child {
   border: none;
@@ -102,16 +110,16 @@
   overflow: hidden;
 }
 .main__container-left {
-  width: 50%;
+  width: 60%;
   gap: 2%;
   display: flex;
   padding-left: 70px;
 }
 .main__details {
-  width: 80%;
+  width: 90%;
 }
 .main__container-right {
-  width: 700px;
+  width: 600px;
   background-image: url(../img/image-hero-desktop.png); /*Imagen de fondo*/
   background-repeat: no-repeat; /*Para que no se repita*/
   background-size: cover; /*Se ajusta al contenedor*/
@@ -122,39 +130,54 @@
   opacity: 0;
 }
 .main__title {
-  font-size: 85px;
+  font-size: 79px;
   font-weight: bold;
   text-align: left;
+  margin-bottom: 80px;
 }
 .main__paragraph {
   color: hsl(0, 0%, 8%);
   font-family: "Epilogue";
   font-size: 15px;
   text-align: justify;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   margin-right: 100px;
+  line-height: 25px;
+  width: 70%;
 }
 .main__button {
-  background: hsl(0, 0%, 8%);
-  padding: 20px;
-  font-family: "Epilogue";
-  font-size: 15px;
-  border-radius: 10px;
+  background-color: hsl(0, 0%, 8%);
+  border: solid 2px hsl(0, 0%, 98%);
   color: hsl(0, 0%, 98%);
-  display: flex;
-  justify-content: left;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 1s;
+  cursor: pointer;
+  border: hsl(0, 0%, 98%);
   margin-bottom: 100px;
 }
-.main__partners {
+.main__button:hover {
+  background-color: hsl(0, 0%, 8%);
+  border: solid 2px hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 98%);
+}
+.main__button:hover {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+  border: solid 2px hsl(0, 0%, 8%);
+}
+.main__button__partners {
   display: flex;
   align-content: center;
   justify-content: space-between;
   align-items: center;
   width: 90%;
 }
-.main__figure-partners img {
+.main__button__figure-partners img {
   width: 65px;
 }
+
 @media screen and (max-width: 900px) {
   .header__left ul {
     display: none;
