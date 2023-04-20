@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="shortcut icon" href="./assets/img/favicon-32x32.png" type="image/x-icon">
     <title>Snap</title>
 </head>
+
 <body>
 
     <header class="header">
@@ -14,22 +16,34 @@
             <div class="header__left">
                 <a href="#" class="header__logo"><img src="./assets/img/logo.svg" alt="Logo Snap"></a>
                 <ul class="header__list">
-                    <li>
-                        <select class="header__select">
-                            <option value="value1" selected>Features</option>
-                            <option value="value2">Value 2</option>
-                            <option value="value3">Value 3</option>
-                        </select>
+                    <li><a href="#">Features <img src="./assets/img/caret-down.svg" alt=""> </a>
+                        <ul>
+                            <li class="Icon">                               
+                                <a href="#"><img src="./assets/img/card-checklist.svg" alt="">Todo List</a>
+                            </li>
+
+                            <li class="Icon">                               
+                                <a href="#"><img src="./assets/img/calendar2-week.svg" alt="">Calendar</a>
+                            </li>
+
+                            <li class="Icon">
+                                <a href="#"><img src="./assets/img/bell-fill.svg" alt="">Reminders</a>
+                            </li>
+
+                            <li class="Icon">
+                                <a href="#"><img src="./assets/img/clock-fill.svg" alt="">Planning</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <select class="header__select">
-                            <option value="value1" selected>Company</option>
-                            <option value="value2">Value 2</option>
-                            <option value="value3">Value 3</option>
-                        </select>
+                    <li><a href="#">Company <img src="./assets/img/caret-down.svg" alt=""> </a>
+                    <ul>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
                     </li>
-                    <li>Careers</li>
-                    <li>About</li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
             </div>
             <div class="header__right">
@@ -37,7 +51,9 @@
                 <button>Register</button>
             </div>
             <div class="header__icono">
-                <button class="header__icono">Abrir</button>
+                <button class="header__icono">
+                    <img src="./assets/img/list.svg" alt="">
+                </button>
             </div>
         </nav>
     </header>
@@ -71,11 +87,12 @@
                 </div>
                 <div class="main__container-right">
                     <figure class="main__figure-img">
-                        <img class= "main__img" src="./assets/img/image-hero-desktop.png" />
+                        <img class="main__img" src="./assets/img/image-hero-desktop.png" />
                     </figure>
                 </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>
