@@ -36,7 +36,8 @@
   gap: 2rem;
   list-style: none;
 }
-.header__listul li a {
+
+.header__list ul li a {
   background-color: palevioletred;
   display: flex;
 }
@@ -62,6 +63,7 @@
 .header__list li:hover > ul {
   display: block;
 }
+
 .header__right {
   display: flex;
   align-items: center;
