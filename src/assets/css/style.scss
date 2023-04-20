@@ -72,12 +72,8 @@
     align-items: center;
     gap: 12px;
 
-    button {
-      font-size: $paragraphFont;
-      padding: 10px 15px;
-      border: 2px solid $colorSecundary;
-      border-radius: 10px;
-      color: $colorSecundary;
+    button{
+    @include button;
     }
 
     button:first-child {
@@ -114,18 +110,18 @@
   }
 
   &__container-left {
-    width: 50%;
+    width: 60%;
     gap: 2%;
     display: flex;
     padding-left: 70px;
   }
 
   &__details {
-    width: 80%;
+    width: 90%;
   }
 
   &__container-right {
-    width: 700px;
+    width: 600px;
     background-image: url(../img/image-hero-desktop.png); /*Imagen de fondo*/
     background-repeat: no-repeat; /*Para que no se repita*/
     background-size: cover; /*Se ajusta al contenedor*/
@@ -138,9 +134,10 @@
   }
 
   &__title {
-    font-size: 85px;
+    font-size: 79px;
     font-weight: bold;
     text-align: left;
+    margin-bottom: 80px;
   }
 
   &__paragraph {
@@ -148,20 +145,20 @@
     font-family: $typografyFont;
     font-size: $paragraphFont;
     text-align: justify;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     margin-right: 100px;
+    line-height: 25px;
+    width: 70%;
   }
 
   &__button {
-    background: $colorTertiary;
-    padding: 20px;
-    font-family: $typografyFont;
-    font-size: $paragraphFont;
-    border-radius: 10px;
-    color: $colorPrimary;
-    display: flex;
-    justify-content: left;
+    @include button($primaryColor: hsl(0, 0%, 8%), $secundaryColor: hsl(0, 0%, 98%), $TertiaryColor: hsl(0, 0%, 98%));
+    border: $colorPrimary;
     margin-bottom: 100px;
+  &:hover{
+    background-color: $colorPrimary;
+    color: $colorTertiary;
+    border: solid 2px $colorTertiary;   
   }
 
   &__partners {
@@ -175,6 +172,7 @@
   &__figure-partners img {
     width: 65px;
   }
+}
 }
 
 @media screen and (max-width: 900px) {
