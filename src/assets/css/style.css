@@ -1,27 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
-=======
->>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-<<<<<<< HEAD
   background-color: transparent;
   font-family: "Epilogue";
 }
 
 .header {
   color: hsl(0, 0%, 41%);
-=======
-  border: none;
-  background-color: transparent;
->>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
 }
-
 .header__nav {
   display: flex;
   justify-content: space-between;
@@ -44,9 +35,11 @@
   justify-content: center;
   gap: 2rem;
   list-style: none;
-  text-decoration: none;
-  border: none;
-  background-color: transparent;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 .header__right button {
   font-size: 15px;
@@ -68,14 +61,7 @@
 }
 
 .main {
-<<<<<<< HEAD
-  background-color: white;
-  margin-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-=======
   margin: 70px;
->>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
 }
 .main__seccion {
   display: flex;
@@ -87,75 +73,37 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-<<<<<<< HEAD
   overflow: hidden;
-  background: magenta;
-}
-.main__container-left {
-  width: 40%;
-=======
 }
 .main__container-left {
   width: 50%;
->>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
   gap: 2%;
   display: flex;
   padding-left: 70px;
 }
-<<<<<<< HEAD
-.main__container-right {
-  background: olive;
-  width: 50%;
-=======
 .main__details {
   width: 80%;
 }
 .main__container-right {
-  width: 45%;
->>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
-  height: 100%;
+  width: 700px;
+  background-image: url(../img/image-hero-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main__img {
   width: 100%;
   height: 100%;
+  opacity: 0;
 }
 .main__title {
-<<<<<<< HEAD
-  font-size: 24px;
-=======
   font-size: 85px;
->>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
   font-weight: bold;
   text-align: left;
 }
-<<<<<<< HEAD
-.main__button {
-  background: black;
-}
-.main__paragraf {
-  color: hsl(0, 0%, 8%);
-  font-family: hsl(0, 0%, 8%);
-  font-size: 15px;
-}
-
-@media screen and (max-width: 900px) {
-  .header__left ul {
-    display: none;
-  }
-}
-@media screen and (max-width: 375px) {
-  .header__right button {
-    display: none;
-  }
-  .header__icono {
-    display: block;
-  }
-}
-=======
 .main__paragraph {
   color: hsl(0, 0%, 8%);
   font-family: "Epilogue";
-  font-size: 18px;
+  font-size: 15px;
   text-align: justify;
   margin-bottom: 80px;
   margin-right: 100px;
@@ -164,7 +112,7 @@
   background: hsl(0, 0%, 8%);
   padding: 20px;
   font-family: "Epilogue";
-  font-size: 18px;
+  font-size: 15px;
   border-radius: 10px;
   color: hsl(0, 0%, 98%);
   display: flex;
@@ -181,6 +129,71 @@
 .main__figure-partners img {
   width: 65px;
 }
->>>>>>> fd402381087eb2ac463b266d78ab70b85d15d8d2
+
+@media screen and (max-width: 1440px) {
+  .header__left ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header__right button {
+    display: none;
+  }
+  .header__icono {
+    display: block;
+  }
+  .main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .main__seccion {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .main__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    overflow: hidden;
+  }
+  .main__container-right {
+    width: 360px;
+    height: 270px;
+    margin: 0 auto;
+    background-image: url(../img/image-hero-mobile.png);
+  }
+  .main__img {
+    width: 200px;
+    height: 100%;
+    opacity: 0;
+  }
+  .main__container-left {
+    width: 50%;
+    margin: 10% 0;
+    gap: 0;
+    display: flex;
+    transform: translateX(-180px);
+  }
+  .main__title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    width: 410px;
+  }
+  .main__paragraph {
+    color: hsl(0, 0%, 8%);
+    font-family: "Epilogue";
+    font-size: 15px;
+    text-align: center;
+    width: 330px;
+    transform: translateX(38px);
+    margin: 20% 0;
+    line-height: 25px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

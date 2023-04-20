@@ -76,13 +76,17 @@
     width: 80%;
   }
   &__container-right {
-    width: 45%;
-    height: 100%;
+    width: 700px;
+    background-image: url(../img/image-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   &__img {
     width: 100%;
     height: 100%;
+    opacity: 0; 
   }
+
   &__title {
     font-size: 85px;
     font-weight: bold;
@@ -119,7 +123,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1440px) {
   .header{
     &__left ul{
       display: none; 
@@ -140,5 +144,63 @@
     // &__right{
     //   display: none;
     // }
+  }
+
+  .main{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+    &__seccion {
+      width: 100%;
+      display: flex;
+     flex-direction: column-reverse;
+      align-items: center;
+    }
+    &__container {
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+      width: 100%;
+      overflow: hidden;
+    }
+    &__container-right{
+      width: 360px;
+      height: 270px;
+      margin: 0 auto;
+      background-image: url(../img/image-hero-mobile.png);
+    }
+
+    &__img {
+      width: 200px;
+      height: 100%;
+      opacity: 0; 
+    }
+
+    &__container-left {
+      width: 50%;
+      margin: 10% 0;
+      gap: 0;
+      display: flex;
+      transform: translateX(-180px);
+    }
+
+    &__title {
+      font-size: 35px;
+      font-weight: bold;
+      text-align: center;
+      width: 410px;
+    }
+
+    &__paragraph{
+      color: $colorTertiary;
+      font-family: $typografyFont;
+      font-size: $paragraphFont;
+      text-align: center;
+      width: 330px;
+      transform: translateX(38px);
+      margin: 20% 0;
+      line-height: 25px;
+    }
   }
 }
