@@ -125,10 +125,10 @@
   }
 
   &__container-right {
-    width: 700px;
-    background-image: url(../img/image-hero-desktop.png); /*Imagen de fondo*/
-    background-repeat: no-repeat; /*Para que no se repita*/
-    background-size: cover; /*Se ajusta al contenedor*/
+    width: 500px;
+    background-image: url(../img/image-hero-desktop.png); //Imagen de fondo/
+    background-repeat: no-repeat; //Para que no se repita/
+    background-size: cover; //Se ajusta al contenedor/
   }
 
   &__img {
@@ -138,7 +138,7 @@
   }
 
   &__title {
-    font-size: 85px;
+    font-size: 64px;
     font-weight: bold;
     text-align: left;
   }
@@ -150,6 +150,8 @@
     text-align: justify;
     margin-bottom: 80px;
     margin-right: 100px;
+    margin-top: 30px;
+    line-height: 20px;
   }
 
   &__button {
@@ -161,7 +163,7 @@
     color: $colorPrimary;
     display: flex;
     justify-content: left;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 
   &__partners {
@@ -195,12 +197,6 @@
       display: block;
     }
 
-    // &__list{
-    //   flex-direction: column;
-    // }
-    // &__right{
-    //   display: none;
-    // }
   }
   .main{
     width: 100%;
@@ -258,5 +254,22 @@
       margin: 20% 0;
       line-height: 25px;
     }
+
+    &__button{
+    margin-top: 60px;
+    transform: translateX(130px);
+    width: 150px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__partners{
+    margin-top: -30px;
+    transform: translateX(25px);
+  }
+
+  &__figure-partners{
+    margin-left: 20px;
+  }
   }
 }

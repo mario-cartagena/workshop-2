@@ -36,7 +36,7 @@
   gap: 2rem;
   list-style: none;
 }
-.header__list ul li a {
+.header__listul li a {
   background-color: palevioletred;
   display: flex;
 }
@@ -111,10 +111,10 @@
   width: 80%;
 }
 .main__container-right {
-  width: 700px;
-  background-image: url(../img/image-hero-desktop.png); /*Imagen de fondo*/
-  background-repeat: no-repeat; /*Para que no se repita*/
-  background-size: cover; /*Se ajusta al contenedor*/
+  width: 500px;
+  background-image: url(../img/image-hero-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main__img {
   width: 100%;
@@ -122,7 +122,7 @@
   opacity: 0;
 }
 .main__title {
-  font-size: 85px;
+  font-size: 64px;
   font-weight: bold;
   text-align: left;
 }
@@ -133,6 +133,8 @@
   text-align: justify;
   margin-bottom: 80px;
   margin-right: 100px;
+  margin-top: 30px;
+  line-height: 20px;
 }
 .main__button {
   background: hsl(0, 0%, 8%);
@@ -143,7 +145,7 @@
   color: hsl(0, 0%, 98%);
   display: flex;
   justify-content: left;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .main__partners {
   display: flex;
@@ -155,6 +157,7 @@
 .main__figure-partners img {
   width: 65px;
 }
+
 @media screen and (max-width: 900px) {
   .header__left ul {
     display: none;
@@ -218,6 +221,20 @@
     transform: translateX(38px);
     margin: 20% 0;
     line-height: 25px;
+  }
+  .main__button {
+    margin-top: 60px;
+    transform: translateX(130px);
+    width: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  .main__partners {
+    margin-top: -30px;
+    transform: translateX(25px);
+  }
+  .main__figure-partners {
+    margin-left: 20px;
   }
 }
 
