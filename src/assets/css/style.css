@@ -238,10 +238,10 @@
   }
   .header__menu-bar {
     display: block;
-    width: 20%;
+    width: 100%;
     position: absolute;
     z-index: 250;
-    transform: translateX(280px);
+    transform: translateX(200px);
     border: transparent;
   }
   .header__menu-bar span {
