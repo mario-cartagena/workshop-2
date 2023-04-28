@@ -14,9 +14,21 @@
   color: hsl(0, 0%, 41%);
 }
 .header__nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: 20px;
+}
+.header__menu-bar {
+  display: none;
+}
+.header__button-close {
+  background-color: yellow;
+  position: absolute;
+  z-index: 220;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 .header__left {
   display: flex;
@@ -29,38 +41,54 @@
 .header__logo {
   display: flex;
   align-items: center;
+  width: 150px;
+  padding-left: 50px;
+}
+.header__logo--mobile {
+  display: none;
 }
 .header__list {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  overflow: hidden;
   list-style: none;
 }
-.header__listul li a {
-  background-color: palevioletred;
-  display: flex;
-}
-.header__list a {
-  color: hsl(0, 0%, 8%);
-}
-.header__list li a {
-  display: block;
-  padding: 5px 15px;
-  transition: 0.5s;
-}
-.header__list li a:hover {
-  color: hsl(0, 0%, 41%);
-}
-.header__list > li {
+.header__list li {
   float: left;
 }
-.header__list li ul {
-  display: none;
-  position: absolute;
-  min-width: 140px;
-}
-.header__list li:hover > ul {
+.header__list li a {
+  color: hsl(0, 0%, 41%);
+  padding: 20px;
   display: block;
+  text-decoration: none;
+}
+.header__list li span {
+  margin-right: 10px;
+}
+.header__list .list__sub-items,
+.header__list .list__sub-itemsTwo {
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.212);
+  border-radius: 10px;
+  color: wheat;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 0;
+}
+.header__list .list__sub-itemsTwo {
+  margin-left: 20px;
+}
+.header__list .showItems {
+  animation: 1s showMenuDestok forwards;
+}
+@keyframes showMenuDestok {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 240px;
+  }
 }
 .header__right {
   display: flex;
@@ -120,9 +148,12 @@
 }
 .main__container-right {
   width: 600px;
-  background-image: url(../img/image-hero-desktop.png); /*Imagen de fondo*/
-  background-repeat: no-repeat; /*Para que no se repita*/
-  background-size: cover; /*Se ajusta al contenedor*/
+  background-image: url(../img/image-hero-desktop.png);
+  /*Imagen de fondo*/
+  background-repeat: no-repeat;
+  /*Para que no se repita*/
+  background-size: cover;
+  /*Se ajusta al contenedor*/
 }
 .main__img {
   width: 100%;
@@ -178,17 +209,88 @@
   width: 65px;
 }
 
-@media screen and (max-width: 900px) {
-  .header__left ul {
-    display: none;
-  }
-}
 @media screen and (max-width: 375px) {
-  .header__right button {
+  .header__nav {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 200;
+    position: fixed;
+    transform: translateX(100px);
+    box-shadow: 0px 10px 0px 100px rgba(0, 0, 0, 0.329);
+  }
+  .header__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+  }
+  .header__logo {
     display: none;
   }
-  .header__icono {
+  .header__logo--mobile {
+    position: absolute;
+    transform: translate(10px, 20px);
     display: block;
+  }
+  .header__menu-bar {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 250;
+    transform: translateX(200px);
+    border: transparent;
+  }
+  .header__menu-bar span {
+    float: right;
+    font-size: 40px;
+  }
+  .header__menu-bar .bt-menu {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .header__menu-bar--open {
+    background-image: url(../img/icon-close-menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .header__list {
+    display: flex;
+    float: none;
+    flex-direction: column;
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .header__list .list_sub-items,
+  .header__list .list_sub-itemsTwo {
+    width: 200px;
+    height: 0;
+    display: block;
+  }
+  .header__list .showItems {
+    animation: 1s forwards showItems;
+  }
+  @keyframes showItems {
+    0% {
+      height: 0px;
+    }
+    100% {
+      height: 220px;
+    }
   }
   .main {
     width: 100%;
@@ -196,6 +298,7 @@
     display: flex;
   }
   .main__seccion {
+    margin-top: 100px;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;

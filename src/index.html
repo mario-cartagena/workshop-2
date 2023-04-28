@@ -12,10 +12,18 @@
 <body>
 
     <header class="header">
+        <div class="header__menu-bar bt-menu">
+            <a href="#" class="bt-menu"><span class="icon-list2"></span><img src="./assets/img/list.svg" width="50"></a>
+        </div>
+        <a href="#" class="header__logo--mobile"><img src="./assets/img/logo.svg" alt="Logo Snap"></a>
+        <!-- <div class="header__button-close">
+            <img src="./assets/img/icon-close-menu.svg" alt="">
+        </div> -->
         <nav class="header__nav">
+            <a href="#" class="header__logo"><img src="./assets/img/logo.svg" alt="Logo Snap"></a>
             <div class="header__left">
-                <a href="#" class="header__logo"><img src="./assets/img/logo.svg" alt="Logo Snap"></a>
-                <ul class="header__list">
+                <!-- <a href="#" class="header__logo"><img src="./assets/img/logo.svg" alt="Logo Snap"></a> -->
+                <!-- <ul class="header__list">
                     <li><a href="#">Features <img src="./assets/img/caret-down.svg" alt=""> </a>
                         <ul>
                             <li class="Icon">                               
@@ -44,19 +52,39 @@
                     </li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">About</a></li>
+                </ul> -->
+                <ul class="header__list">
+                    <li><a href="#" id="btn__feature"><span class="icon-house"></span>Features</a>
+                        <ul class="list__sub-items">
+                            <a href="#"><img src="./assets/img/icon-todo.svg">Todo List</a>
+                            <a href="#"><img src="./assets/img/icon-calendar.svg">Calendar</a>
+                            <a href="#"><img src="./assets/img/icon-reminders.svg">Reminders</a>
+                            <a href="#"><img src="./assets/img/icon-planning.svg">Planning</a>
+                        </ul>
+                    </li>
+                    <li><a href="#" id="btn__company"><span class="icon-suitcase"></span>Company</a>
+                        <ul class="list__sub-itemsTwo">
+                            <a href="#">History</a>
+                            <a href="#">Our Team</a>
+                            <a href="#">Blog</a>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="icon-rocket"></span>Careers</a></li>
+                    <li><a href="#"><span class="icon-earth"></span>About</a></li>
                 </ul>
             </div>
             <div class="header__right">
                 <button>Login</button>
                 <button>Register</button>
             </div>
-            <div class="header__icono">
+            <!-- <div class="header__icono">
                 <button class="header__icono">
-                    <img src="./assets/img/list.svg" alt="">
+                    <img src="./assets/img/icon-menu.svg" alt="Icono menu">
                 </button>
-            </div>
+            </div> -->
         </nav>
     </header>
+
     <main class="main">
         <section class="main__seccion">
             <div class="main__container">
@@ -93,6 +121,7 @@
             </div>
         </section>
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

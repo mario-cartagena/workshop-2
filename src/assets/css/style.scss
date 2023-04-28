@@ -6,9 +6,23 @@
   color: $colorSecundary;
 
   &__nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 20px;
+  }
+
+  &__menu-bar {
+    display: none;
+  }
+
+  &__button-close {
+    background-color: yellow;
+    position: absolute;
+    z-index: 220;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
   }
 
   &__left {
@@ -24,45 +38,61 @@
   &__logo {
     display: flex;
     align-items: center;
+    width: 150px;
+    padding-left: 50px;
   }
-
+  &__logo--mobile{
+    display: none;
+  }
   &__list {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    overflow: hidden;
     list-style: none;
 
-    &ul li a{
-      background-color: palevioletred;
-      display: flex;
-    }
-  
-    & a{
-      color: $colorTertiary;
-    }
-
-    & li a {
-      display: block;
-      padding: 5px 15px;
-      transition: 0.5s;
-    }
-
-    & li a:hover{
-      color: $colorSecundary;
-    }
-
-    & > li{
+    li {
       float: left;
     }
- 
-    & li ul {
-      display: none;
-      position: absolute;
-      min-width: 140px;
+
+    li a {
+      color: hsl(0, 0%, 41%);
+      padding: 20px;
+      display: block;
+      text-decoration: none;
     }
 
-    & li:hover > ul{
-      display: block;
+    li span {
+      margin-right: 10px;
+    }
+
+    .list__sub-items,
+    .list__sub-itemsTwo {
+      background-color: $colorPrimary;
+      box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.212);
+      border-radius: 10px;
+      color: wheat;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      height: 0;
+    }
+
+    .list__sub-itemsTwo {
+      margin-left: 20px;
+    }
+
+    .showItems {
+      animation: 1s showMenuDestok forwards;
+    }
+
+    @keyframes showMenuDestok {
+      0% {
+        height: 0;
+      }
+
+      100% {
+        height: 240px;
+      }
     }
 
   }
@@ -72,8 +102,8 @@
     align-items: center;
     gap: 12px;
 
-    button{
-    @include button;
+    button {
+      @include button;
     }
 
     button:first-child {
@@ -122,9 +152,12 @@
 
   &__container-right {
     width: 600px;
-    background-image: url(../img/image-hero-desktop.png); /*Imagen de fondo*/
-    background-repeat: no-repeat; /*Para que no se repita*/
-    background-size: cover; /*Se ajusta al contenedor*/
+    background-image: url(../img/image-hero-desktop.png);
+    /*Imagen de fondo*/
+    background-repeat: no-repeat;
+    /*Para que no se repita*/
+    background-size: cover;
+    /*Se ajusta al contenedor*/
   }
 
   &__img {
@@ -155,62 +188,147 @@
     @include button($primaryColor: hsl(0, 0%, 8%), $secundaryColor: hsl(0, 0%, 98%), $TertiaryColor: hsl(0, 0%, 98%));
     border: $colorPrimary;
     margin-bottom: 100px;
-  &:hover{
-    background-color: $colorPrimary;
-    color: $colorTertiary;
-    border: solid 2px $colorTertiary;   
-  }
 
-  &__partners {
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-  }
+    &:hover {
+      background-color: $colorPrimary;
+      color: $colorTertiary;
+      border: solid 2px $colorTertiary;
+    }
 
-  &__figure-partners img {
-    width: 65px;
+    &__partners {
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+    }
+
+    &__figure-partners img {
+      width: 65px;
+    }
   }
-}
 }
 
 @media screen and (max-width: 900px) {
-  .header {
-    &__left ul {
-      display: none;
-    }
-  }
+  // .header {
+  //   &__list{
+  //     display: none;
+  //   }
+  // }
 }
 
 @media screen and (max-width: 375px) {
   .header {
-    &__right button {
+    &__nav {
+      width: 80%;
+      height: 100%;
+      // left:-100%;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      background-color: rgb(255, 255, 255);
+      z-index: 200;
+      position: fixed;
+      transform: translateX(100px);
+      box-shadow: -0px 10px 0px 100px rgba(0, 0, 0, 0.329);
+    }
+    &__right{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 150px;
+    }
+
+    &__logo {
       display: none;
     }
 
-    &__icono {
+    &__logo--mobile {
+      position: absolute;
+      transform: translate(10px, 20px);
       display: block;
     }
 
-    // &__list{
-    //   flex-direction: column;
-    // }
-    // &__right{
-    //   display: none;
-    // }
+    &__menu-bar {
+      display: block;
+      width: 100%;
+      position: absolute;
+      z-index: 250;
+      transform: translateX(200px);
+      border: transparent;
+
+      span {
+        float: right;
+        font-size: 40px;
+      }
+
+      .bt-menu {
+        display: block;
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+    }
+
+    &__menu-bar--open {
+      background-image: url(../img/icon-close-menu.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 50px;
+      height: 50px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    &__list {
+      display: flex;
+      float: none;
+      flex-direction: column;
+      margin-top: 50px;
+      border-bottom: 1px solid rgba(255, 255, 255, .3);
+
+      .list_sub-items,
+      .list_sub-itemsTwo {
+        width: 200px;
+        height: 0;
+
+        display: block;
+      }
+
+      .showItems {
+        animation: 1s forwards showItems;
+      }
+
+      @keyframes showItems {
+        0% {
+          height: 0px;
+        }
+
+        100% {
+          height: 220px;
+        }
+      }
+    }
   }
-  .main{
+
+  .main {
     width: 100%;
     margin: 0 auto;
     display: flex;
 
     &__seccion {
+      margin-top: 100px;
       width: 100%;
       display: flex;
-     flex-direction: column-reverse;
+      flex-direction: column-reverse;
       align-items: center;
     }
+
     &__container {
       display: flex;
       align-items: center;
@@ -218,7 +336,8 @@
       width: 100%;
       overflow: hidden;
     }
-    &__container-right{
+
+    &__container-right {
       width: 360px;
       height: 270px;
       margin: 0 auto;
@@ -228,7 +347,7 @@
     &__img {
       width: 200px;
       height: 100%;
-      opacity: 0; 
+      opacity: 0;
     }
 
     &__container-left {
@@ -246,7 +365,7 @@
       width: 410px;
     }
 
-    &__paragraph{
+    &__paragraph {
       color: $colorTertiary;
       font-family: $typografyFont;
       font-size: $paragraphFont;
