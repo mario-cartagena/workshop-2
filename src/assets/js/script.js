@@ -7,14 +7,14 @@ function main() {
     var nav = document.querySelector(".header__nav");
 
     menuBar.addEventListener('click', function () {
-        alert("hola")
-        // if (contador === 1) {
-        //     nav.style.left = '0';
-        //     contador = 0;
-        // } else {
-        //     contador = 1;
-        //     nav.style.left = '-100%';
-        // }
+        if (contador === 1) {
+            nav.style.left = '0';
+            contador = 0;
+        } else {
+            contador = 1;
+            nav.style.left = '100%';
+        }
+        menuBar.classList.toggle("header__menu-bar--open");
     });
 
 };
