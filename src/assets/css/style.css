@@ -241,7 +241,7 @@
     width: 100%;
     position: absolute;
     z-index: 250;
-    transform: translateX(200px);
+    transform: translateX(280px);
     border: transparent;
   }
   .header__menu-bar span {
@@ -267,6 +267,9 @@
     height: 50px;
     margin-top: 20px;
     margin-left: 20px;
+  }
+  .header__menu-bar--open img {
+    display: none;
   }
   .header__list {
     display: flex;
