@@ -193,9 +193,9 @@
       background-color: $colorPrimary;
       color: $colorTertiary;
       border: solid 2px $colorTertiary;
-    }
+    }}
 
-    &__partners {
+    &__partners{
       display: flex;
       align-content: center;
       justify-content: space-between;
@@ -207,7 +207,6 @@
       width: 65px;
     }
   }
-}
 
 @media screen and (max-width: 900px) {
   // .header {
@@ -378,6 +377,20 @@
       transform: translateX(38px);
       margin: 20% 0;
       line-height: 25px;
+    }
+
+    &__button{
+      width: 150px;
+      transform: translateX(130px);
+      margin-bottom: 80px;
+      margin-top: 30px;
+    }
+
+    &__partners{
+      width: 70px;
+      display: flex;
+      gap: 5px;
+      transform: translateX(70px);
     }
   }
 }

@@ -198,14 +198,14 @@
   color: hsl(0, 0%, 8%);
   border: solid 2px hsl(0, 0%, 8%);
 }
-.main__button__partners {
+.main__partners {
   display: flex;
   align-content: center;
   justify-content: space-between;
   align-items: center;
   width: 90%;
 }
-.main__button__figure-partners img {
+.main__figure-partners img {
   width: 65px;
 }
 
@@ -347,6 +347,18 @@
     transform: translateX(38px);
     margin: 20% 0;
     line-height: 25px;
+  }
+  .main__button {
+    width: 150px;
+    transform: translateX(130px);
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  .main__partners {
+    width: 70px;
+    display: flex;
+    gap: 5px;
+    transform: translateX(70px);
   }
 }
 
