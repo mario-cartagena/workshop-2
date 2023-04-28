@@ -254,7 +254,7 @@
       width: 100%;
       position: absolute;
       z-index: 250;
-      transform: translateX(200px);
+      transform: translateX(280px);
       border: transparent;
 
       span {
@@ -285,6 +285,10 @@
       margin-left: 20px;
     }
 
+    &__menu-bar--open img{
+      display: none;
+    }
+    
     &__list {
       display: flex;
       float: none;
