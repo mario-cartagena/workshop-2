@@ -19,6 +19,12 @@
 
   &__icono {
     display: none;
+    width: 30px;
+    height: 50%;
+    background-image: url("../img/icon-menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
   }
 
   &__logo {
@@ -188,9 +194,15 @@
     &__right button {
       display: none;
     }
-
+    &__left{
+      display: flex;
+    }
     &__icono {
       display: block;
+      margin-left: auto;
+    }
+    &__icono--open{
+      background-image: url("../img/icon-close-menu.svg");
     }
 
     // &__list{

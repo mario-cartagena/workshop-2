@@ -25,6 +25,12 @@
 }
 .header__icono {
   display: none;
+  width: 30px;
+  height: 50%;
+  background-image: url("../img/icon-menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 .header__logo {
   display: flex;
@@ -187,8 +193,15 @@
   .header__right button {
     display: none;
   }
+  .header__left {
+    display: flex;
+  }
   .header__icono {
     display: block;
+    margin-left: auto;
+  }
+  .header__icono--open {
+    background-image: url("../img/icon-close-menu.svg");
   }
   .main {
     width: 100%;
