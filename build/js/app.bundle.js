@@ -3198,7 +3198,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/favicon-32x32.png */ \"./src/assets/img/favicon-32x32.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/logo.svg */ \"./src/assets/img/logo.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/caret-down.svg */ \"./src/assets/img/caret-down.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/card-checklist.svg */ \"./src/assets/img/card-checklist.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/calendar2-week.svg */ \"./src/assets/img/calendar2-week.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/bell-fill.svg */ \"./src/assets/img/bell-fill.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/clock-fill.svg */ \"./src/assets/img/clock-fill.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/icon-menu.svg */ \"./src/assets/img/icon-menu.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/client-databiz.svg */ \"./src/assets/img/client-databiz.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/client-audiophile.svg */ \"./src/assets/img/client-audiophile.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/client-meet.svg */ \"./src/assets/img/client-meet.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/client-maker.svg */ \"./src/assets/img/client-maker.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/image-hero-desktop.png */ \"./src/assets/img/image-hero-desktop.png\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);\nvar ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);\nvar ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);\nvar ___HTML_LOADER_REPLACEMENT_10___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_10___);\nvar ___HTML_LOADER_REPLACEMENT_11___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_11___);\nvar ___HTML_LOADER_REPLACEMENT_12___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_12___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"es\\\">\\r\\n\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <link rel=\\\"shortcut icon\\\" href=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" type=\\\"image/x-icon\\\">\\r\\n    <title>Snap</title>\\r\\n</head>\\r\\n\\r\\n<body>\\r\\n\\r\\n    <header class=\\\"header\\\">\\r\\n        <nav class=\\\"header__nav\\\">\\r\\n            <div class=\\\"header__left\\\">\\r\\n                <a href=\\\"#\\\" class=\\\"header__logo\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" alt=\\\"Logo Snap\\\"></a>\\r\\n                <ul class=\\\"header__list\\\">\\r\\n                    <li><a href=\\\"#\\\">Features <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"\\\"> </a>\\r\\n                        <ul>\\r\\n                            <li class=\\\"Icon\\\">                               \\r\\n                                <a href=\\\"#\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\" alt=\\\"\\\">Todo List</a>\\r\\n                            </li>\\r\\n\\r\\n                            <li class=\\\"Icon\\\">                               \\r\\n                                <a href=\\\"#\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\" alt=\\\"\\\">Calendar</a>\\r\\n                            </li>\\r\\n\\r\\n                            <li class=\\\"Icon\\\">\\r\\n                                <a href=\\\"#\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\" alt=\\\"\\\">Reminders</a>\\r\\n                            </li>\\r\\n\\r\\n                            <li class=\\\"Icon\\\">\\r\\n                                <a href=\\\"#\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\" alt=\\\"\\\">Planning</a>\\r\\n                            </li>\\r\\n                        </ul>\\r\\n                    </li>\\r\\n                    <li><a href=\\\"#\\\">Company <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"\\\"> </a>\\r\\n                    <ul>\\r\\n                        <li><a href=\\\"#\\\">History</a></li>\\r\\n                        <li><a href=\\\"#\\\">Our Team</a></li>\\r\\n                        <li><a href=\\\"#\\\">Blog</a></li>\\r\\n                    </ul>\\r\\n                    </li>\\r\\n                    <li><a href=\\\"#\\\">Careers</a></li>\\r\\n                    <li><a href=\\\"#\\\">About</a></li>\\r\\n                </ul>\\r\\n            </div>\\r\\n            <div class=\\\"header__right\\\">\\r\\n                <button>Login</button>\\r\\n                <button>Register</button>\\r\\n            </div>\\r\\n            <div class=\\\"header__icono\\\">\\r\\n                <button class=\\\"header__icono\\\">\\r\\n                    <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_7___ + \"\\\" alt=\\\"Icono menu\\\">\\r\\n                </button>\\r\\n            </div>\\r\\n        </nav>\\r\\n    </header>\\r\\n    <main class=\\\"main\\\">\\r\\n        <section class=\\\"main__seccion\\\">\\r\\n            <div class=\\\"main__container\\\">\\r\\n                <div class=\\\"main__container-left\\\">\\r\\n                    <div class=\\\"main__details\\\">\\r\\n                        <h2 class=\\\"main__title\\\">Make remote Work </h2>\\r\\n                        <!-- <h2 class=\\\"main__title\\\"></h2> -->\\r\\n                        <P class=\\\"main__paragraph\\\">\\r\\n                            Get your ream in sync, no matter your location.\\r\\n                            Streamline processes, create team rituals, and watch productivity soar.\\r\\n                        </P>\\r\\n                        <button class=\\\"main__button\\\">Learn more</button>\\r\\n                        <div class=\\\"main__partners\\\">\\r\\n                            <figure class=\\\"main__figure-partners\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_8___ + \"\\\" alt=\\\"\\\">\\r\\n                            </figure>\\r\\n                            <figure class=\\\"main__figure-partners\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_9___ + \"\\\" alt=\\\"\\\">\\r\\n                            </figure>\\r\\n                            <figure class=\\\"main__figure-partners\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_10___ + \"\\\" alt=\\\"\\\">\\r\\n                            </figure>\\r\\n                            <figure class=\\\"main__figure-partners\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_11___ + \"\\\" alt=\\\"\\\">\\r\\n                            </figure>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"main__container-right\\\">\\r\\n                    <figure class=\\\"main__figure-img\\\">\\r\\n                        <img class=\\\"main__img\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_12___ + \"\\\" />\\r\\n                    </figure>\\r\\n                </div>\\r\\n            </div>\\r\\n        </section>\\r\\n    </main>\\r\\n</body>\\r\\n\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://proyecto-webpack/./src/index.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/favicon-32x32.png */ \"./src/assets/img/favicon-32x32.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/list.svg */ \"./src/assets/img/list.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/logo.svg */ \"./src/assets/img/logo.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/icon-todo.svg */ \"./src/assets/img/icon-todo.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/icon-calendar.svg */ \"./src/assets/img/icon-calendar.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/icon-reminders.svg */ \"./src/assets/img/icon-reminders.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/icon-planning.svg */ \"./src/assets/img/icon-planning.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/client-databiz.svg */ \"./src/assets/img/client-databiz.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/client-audiophile.svg */ \"./src/assets/img/client-audiophile.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/client-meet.svg */ \"./src/assets/img/client-meet.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/client-maker.svg */ \"./src/assets/img/client-maker.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/image-hero-desktop.png */ \"./src/assets/img/image-hero-desktop.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/js/script.js */ \"./src/assets/js/script.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);\nvar ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);\nvar ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);\nvar ___HTML_LOADER_REPLACEMENT_10___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_10___);\nvar ___HTML_LOADER_REPLACEMENT_11___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_11___);\nvar ___HTML_LOADER_REPLACEMENT_12___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_12___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"es\\\">\\r\\n\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=edge\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <link rel=\\\"shortcut icon\\\" href=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" type=\\\"image/x-icon\\\">\\r\\n    <title>Snap</title>\\r\\n</head>\\r\\n\\r\\n<body>\\r\\n\\r\\n    <header class=\\\"header\\\">\\r\\n        <div class=\\\"header__menu-bar bt-menu\\\">\\r\\n            <a href=\\\"#\\\" class=\\\"bt-menu\\\"><span class=\\\"icon-list2\\\"></span><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\" width=\\\"50\\\"></a>\\r\\n        </div>\\r\\n        <a href=\\\"#\\\" class=\\\"header__logo--mobile\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"Logo Snap\\\"></a>\\r\\n        <!-- <div class=\\\"header__button-close\\\">\\r\\n            <img src=\\\"./assets/img/icon-close-menu.svg\\\" alt=\\\"\\\">\\r\\n        </div> -->\\r\\n        <nav class=\\\"header__nav\\\">\\r\\n            <a href=\\\"#\\\" class=\\\"header__logo\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\" alt=\\\"Logo Snap\\\"></a>\\r\\n            <div class=\\\"header__left\\\">\\r\\n                <!-- <a href=\\\"#\\\" class=\\\"header__logo\\\"><img src=\\\"./assets/img/logo.svg\\\" alt=\\\"Logo Snap\\\"></a> -->\\r\\n                <!-- <ul class=\\\"header__list\\\">\\r\\n                    <li><a href=\\\"#\\\">Features <img src=\\\"./assets/img/caret-down.svg\\\" alt=\\\"\\\"> </a>\\r\\n                        <ul>\\r\\n                            <li class=\\\"Icon\\\">                               \\r\\n                                <a href=\\\"#\\\"><img src=\\\"./assets/img/card-checklist.svg\\\" alt=\\\"\\\">Todo List</a>\\r\\n                            </li>\\r\\n\\r\\n                            <li class=\\\"Icon\\\">                               \\r\\n                                <a href=\\\"#\\\"><img src=\\\"./assets/img/calendar2-week.svg\\\" alt=\\\"\\\">Calendar</a>\\r\\n                            </li>\\r\\n\\r\\n                            <li class=\\\"Icon\\\">\\r\\n                                <a href=\\\"#\\\"><img src=\\\"./assets/img/bell-fill.svg\\\" alt=\\\"\\\">Reminders</a>\\r\\n                            </li>\\r\\n\\r\\n                            <li class=\\\"Icon\\\">\\r\\n                                <a href=\\\"#\\\"><img src=\\\"./assets/img/clock-fill.svg\\\" alt=\\\"\\\">Planning</a>\\r\\n                            </li>\\r\\n                        </ul>\\r\\n                    </li>\\r\\n                    <li><a href=\\\"#\\\">Company <img src=\\\"./assets/img/caret-down.svg\\\" alt=\\\"\\\"> </a>\\r\\n                    <ul>\\r\\n                        <li><a href=\\\"#\\\">History</a></li>\\r\\n                        <li><a href=\\\"#\\\">Our Team</a></li>\\r\\n                        <li><a href=\\\"#\\\">Blog</a></li>\\r\\n                    </ul>\\r\\n                    </li>\\r\\n                    <li><a href=\\\"#\\\">Careers</a></li>\\r\\n                    <li><a href=\\\"#\\\">About</a></li>\\r\\n                </ul> -->\\r\\n                <ul class=\\\"header__list\\\">\\r\\n                    <li><a href=\\\"#\\\" id=\\\"btn__feature\\\"><span class=\\\"icon-house\\\"></span>Features</a>\\r\\n                        <ul class=\\\"list__sub-items\\\">\\r\\n                            <a href=\\\"#\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\">Todo List</a>\\r\\n                            <a href=\\\"#\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\">Calendar</a>\\r\\n                            <a href=\\\"#\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\">Reminders</a>\\r\\n                            <a href=\\\"#\\\"><img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\">Planning</a>\\r\\n                        </ul>\\r\\n                    </li>\\r\\n                    <li><a href=\\\"#\\\" id=\\\"btn__company\\\"><span class=\\\"icon-suitcase\\\"></span>Company</a>\\r\\n                        <ul class=\\\"list__sub-itemsTwo\\\">\\r\\n                            <a href=\\\"#\\\">History</a>\\r\\n                            <a href=\\\"#\\\">Our Team</a>\\r\\n                            <a href=\\\"#\\\">Blog</a>\\r\\n                        </ul>\\r\\n                    </li>\\r\\n                    <li><a href=\\\"#\\\"><span class=\\\"icon-rocket\\\"></span>Careers</a></li>\\r\\n                    <li><a href=\\\"#\\\"><span class=\\\"icon-earth\\\"></span>About</a></li>\\r\\n                </ul>\\r\\n            </div>\\r\\n            <div class=\\\"header__right\\\">\\r\\n                <button>Login</button>\\r\\n                <button>Register</button>\\r\\n            </div>\\r\\n            <!-- <div class=\\\"header__icono\\\">\\r\\n                <button class=\\\"header__icono\\\">\\r\\n                    <img src=\\\"./assets/img/icon-menu.svg\\\" alt=\\\"Icono menu\\\">\\r\\n                </button>\\r\\n            </div> -->\\r\\n        </nav>\\r\\n    </header>\\r\\n\\r\\n    <main class=\\\"main\\\">\\r\\n        <section class=\\\"main__seccion\\\">\\r\\n            <div class=\\\"main__container\\\">\\r\\n                <div class=\\\"main__container-left\\\">\\r\\n                    <div class=\\\"main__details\\\">\\r\\n                        <h2 class=\\\"main__title\\\">Make remote Work </h2>\\r\\n                        <!-- <h2 class=\\\"main__title\\\"></h2> -->\\r\\n                        <P class=\\\"main__paragraph\\\">\\r\\n                            Get your ream in sync, no matter your location.\\r\\n                            Streamline processes, create team rituals, and watch productivity soar.\\r\\n                        </P>\\r\\n                        <button class=\\\"main__button\\\">Learn more</button>\\r\\n                        <div class=\\\"main__partners\\\">\\r\\n                            <figure class=\\\"main__figure-partners\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_7___ + \"\\\" alt=\\\"\\\">\\r\\n                            </figure>\\r\\n                            <figure class=\\\"main__figure-partners\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_8___ + \"\\\" alt=\\\"\\\">\\r\\n                            </figure>\\r\\n                            <figure class=\\\"main__figure-partners\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_9___ + \"\\\" alt=\\\"\\\">\\r\\n                            </figure>\\r\\n                            <figure class=\\\"main__figure-partners\\\">\\r\\n                                <img src=\\\"\" + ___HTML_LOADER_REPLACEMENT_10___ + \"\\\" alt=\\\"\\\">\\r\\n                            </figure>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                </div>\\r\\n                <div class=\\\"main__container-right\\\">\\r\\n                    <figure class=\\\"main__figure-img\\\">\\r\\n                        <img class=\\\"main__img\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_11___ + \"\\\" />\\r\\n                    </figure>\\r\\n                </div>\\r\\n            </div>\\r\\n        </section>\\r\\n    </main>\\r\\n    <\" + \"script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_12___ + \"\\\"><\" + \"/script>\\r\\n</body>\\r\\n\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://proyecto-webpack/./src/index.html?");
 
 /***/ }),
 
@@ -3213,47 +3213,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
-/***/ "./src/assets/img/bell-fill.svg":
-/*!**************************************!*\
-  !*** ./src/assets/img/bell-fill.svg ***!
-  \**************************************/
+/***/ "./src/assets/js/script.js":
+/*!*********************************!*\
+  !*** ./src/assets/js/script.js ***!
+  \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"b93ae5718fb775986771.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/bell-fill.svg?");
-
-/***/ }),
-
-/***/ "./src/assets/img/calendar2-week.svg":
-/*!*******************************************!*\
-  !*** ./src/assets/img/calendar2-week.svg ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"8be2569a65c5b08b774a.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/calendar2-week.svg?");
-
-/***/ }),
-
-/***/ "./src/assets/img/card-checklist.svg":
-/*!*******************************************!*\
-  !*** ./src/assets/img/card-checklist.svg ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"9137e9c0970ae8a35bf5.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/card-checklist.svg?");
-
-/***/ }),
-
-/***/ "./src/assets/img/caret-down.svg":
-/*!***************************************!*\
-  !*** ./src/assets/img/caret-down.svg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"dbf503a09b5d9d006649.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/caret-down.svg?");
+eval("module.exports = __webpack_require__.p + \"9b5ac66a5621e159dea9.js\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/js/script.js?");
 
 /***/ }),
 
@@ -3301,17 +3268,6 @@ eval("module.exports = __webpack_require__.p + \"2d6ffbad4108ea24377c.svg\";\n\n
 
 /***/ }),
 
-/***/ "./src/assets/img/clock-fill.svg":
-/*!***************************************!*\
-  !*** ./src/assets/img/clock-fill.svg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"424fe79fb55b54d1bb17.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/clock-fill.svg?");
-
-/***/ }),
-
 /***/ "./src/assets/img/favicon-32x32.png":
 /*!******************************************!*\
   !*** ./src/assets/img/favicon-32x32.png ***!
@@ -3323,14 +3279,47 @@ eval("module.exports = __webpack_require__.p + \"736eae1ff09acfe04c50.png\";\n\n
 
 /***/ }),
 
-/***/ "./src/assets/img/icon-menu.svg":
+/***/ "./src/assets/img/icon-calendar.svg":
+/*!******************************************!*\
+  !*** ./src/assets/img/icon-calendar.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"238c231afbc7d43b81c6.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/icon-calendar.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/icon-planning.svg":
+/*!******************************************!*\
+  !*** ./src/assets/img/icon-planning.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"7264cc64a81fa348da1d.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/icon-planning.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/icon-reminders.svg":
+/*!*******************************************!*\
+  !*** ./src/assets/img/icon-reminders.svg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"d573f5028c4469edf76a.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/icon-reminders.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/img/icon-todo.svg":
 /*!**************************************!*\
-  !*** ./src/assets/img/icon-menu.svg ***!
+  !*** ./src/assets/img/icon-todo.svg ***!
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"863803c904916606b7a1.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/icon-menu.svg?");
+eval("module.exports = __webpack_require__.p + \"84eeba8f3b9a1811c1ea.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/icon-todo.svg?");
 
 /***/ }),
 
@@ -3342,6 +3331,17 @@ eval("module.exports = __webpack_require__.p + \"863803c904916606b7a1.svg\";\n\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"50cc22fddeb0c072b414.png\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/image-hero-desktop.png?");
+
+/***/ }),
+
+/***/ "./src/assets/img/list.svg":
+/*!*********************************!*\
+  !*** ./src/assets/img/list.svg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"b8fa93e0a1485bc1cc22.svg\";\n\n//# sourceURL=webpack://proyecto-webpack/./src/assets/img/list.svg?");
 
 /***/ }),
 
